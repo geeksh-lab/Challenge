@@ -40,3 +40,19 @@ for (k=0; k < tailleTab ; k++){
 printf("%d\n",  array[k]) ;
 }  
 }
+
+
+double moyenneTableau(int Tab[],int tailleTab){
+
+	int i =0;
+	int sum = 0;
+	double	moy = 0;
+	for(i=0; i < tailleTab; i++){
+	sum += Tab[i];
+	
+	
+	}
+	moy = sum/tailleTab;
+
+	return moy;
+}
