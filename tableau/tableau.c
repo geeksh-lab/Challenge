@@ -65,5 +65,18 @@ int sum = 0;
  return sum;
 
 }
+// copyTab
+void copyTab(int array[], int copyArray[], int tailleTab){
+	int i =0;
+	int j = 0;
+	for(i = 0; i < tailleTab; i++){
+
+	copyArray[i] = array[i]; 
+	
+	}
+	printf("Array copied successfully\n");
+
+
+}
 
 
