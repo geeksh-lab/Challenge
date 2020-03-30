@@ -1,5 +1,5 @@
 #include <stdio.h>
-void ordonnerTableau(int array[], int tailleTab){
+void  orderTab(int array[], int tailleTab){
 int i=0;
 int j=0;
 int k=0;
@@ -41,8 +41,7 @@ printf("%d\n",  array[k]) ;
 }  
 }
 
-
-double moyenneTableau(int Tab[],int tailleTab){
+double averageTab(int Tab[],int tailleTab){
 
 	int i =0;
 	int sum = 0;
@@ -56,3 +55,15 @@ double moyenneTableau(int Tab[],int tailleTab){
 
 	return moy;
 }
+int sumTab(int array[], int tailleTab){
+int i = 0;
+int sum = 0;
+ for(i=0;i < tailleTab; i++) {
+	sum += array[i];
+ }
+
+ return sum;
+
+}
+
+
