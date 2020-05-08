@@ -6,7 +6,7 @@
 #include <string.h>
 int main(void){
     // recuperation de le fonction
-    char nom[]= "baba";
+    char nom[5]={0};
     int length = 0;
     int moyenne;
     int verifsum;
@@ -21,9 +21,14 @@ int main(void){
     copyTab(tab, tab1, TAILLE_TAB);
     verifsum  = sumTab(tab1, TAILLE_TAB);
    printf("La somme des elements du tableau copier est %d\n", verifsum);
+   
+   if(read(nom, 5)){
   length = strlength(nom);
  printf("la longueur de la chaine %s est %d\n", nom, length); 
-     
+   }
+   else{
+   printf("error");
+   }
     
     return 0x000;
 }

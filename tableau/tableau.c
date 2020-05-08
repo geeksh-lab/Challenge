@@ -5,7 +5,7 @@ int j=0;
 int k=0;
 int tmp=0;
 
-/**int  i  = 0 ; 
+/**int  i  = 0 ;**/ 
 int temp = 0;
     while  ( i  <   tailleTab )  {
         
@@ -26,8 +26,8 @@ int temp = 0;
 
 
 
-}**/
-for(i=0; i<tailleTab; i++)
+}
+/**for(i=0; i<tailleTab; i++)
    for(j=i+1; j<tailleTab; j++) {
       if(array[i]>array[j]) {
          tmp = array[i];
@@ -39,7 +39,7 @@ for(i=0; i<tailleTab; i++)
 for (k=0; k < tailleTab ; k++){
 printf("%d\n",  array[k]) ;
 }  
-}
+}**/
 
 double averageTab(int Tab[],int tailleTab){
 
